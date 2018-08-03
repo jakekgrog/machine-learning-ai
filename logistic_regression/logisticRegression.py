@@ -10,6 +10,10 @@ from lr_utils import load_dataset
 THIS IS A BINARY IMAGE CLASSIFIER INSPIRED BY SILICON VALLEY'S HOTDOG - NOT HOTDOG APP
 
 It can be trained to recognise whether a desired object is present or not in a labelled dataset of images
+
+Some parts (importing the dataset) have been left out, feel free to change it up a bit to suit your dataset
+
+However I've left the imports here
 """
 
 train_set_x_orig, train_set_y, test_set_x_orig, test_set_y, classes = load_dataset()
